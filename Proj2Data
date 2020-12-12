@@ -1,5 +1,5 @@
 {
-  "HikingTrails":
+  "ExerciseMachines":
   [
     {"MachineName":"Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://raw.githubusercontent.com/donalmeida/JSONProjectsIT315/master/burkelake.jpg","MachineURL":"8.0 mi"},
     {"MachineName":"2Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://raw.githubusercontent.com/donalmeida/JSONProjectsIT315/master/burkelake.jpg","MachineURL":"8.0 mi"},
