@@ -1,8 +1,8 @@
 {
   "ExerciseMachines":
   [
-    {"MachineName":"Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://raw.githubusercontent.com/donalmeida/JSONProjectsIT315/master/burkelake.jpg","MachineURL":"8.0 mi"},
-    {"MachineName":"Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://pixabay.com/images/id-3439343/","MachineURL":"8.0 mi"},
+    {"MachineName":"Hack Squat","MachineType":"Resistance","MachineDesc":"hack squat desc","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/HackSquat.jpeg","MachineURL":"8.0 mi"},
+    {"MachineName":"Elliptical","MachineType":"Cardio","MachineDesc":"elliptical desc","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/elliptical.jpg","MachineURL":"8.0 mi"},
   ],
   "Status":"OK"
 }
