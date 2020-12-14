@@ -2,7 +2,7 @@
   "ExerciseMachines":
   [
     {"MachineName":"Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://raw.githubusercontent.com/donalmeida/JSONProjectsIT315/master/burkelake.jpg","MachineURL":"8.0 mi"},
-    {"MachineName":"Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://c.pxhere.com/photos/83/d6/autumn_landscape_fall_nature_autumn_leaves_colors_water_lake_serenity-1053615.jpg","MachineURL":"8.0 mi"},
+    {"MachineName":"Difficult","MachineType":"2510 ft","MachineDesc":1,"MachineImage":"https://pixabay.com/images/id-3439343/","MachineURL":"8.0 mi"},
   ],
   "Status":"OK"
 }
