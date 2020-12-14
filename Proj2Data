@@ -1,55 +1,15 @@
 {
   "ExerciseMachines":
   [
-    {"MachineName":"Hack Squat","MachineType":"Resistance","MachineDesc":"hack squat desc","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/HackSquat.jpeg","MachineURL":"8.0 mi"},
-    {"MachineName":"Elliptical","MachineType":"Cardio","MachineDesc":"elliptical desc","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/elliptical.jpg","MachineURL":"8.0 mi"},
-  ],
+  {"MachineName":"Elliptical","MachineType":"Cardio","MachineDesc":"Simulates a running motion that places no impact on the knee joints and successfully integrates the arms for a full body workout.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/elliptical.jpg","MachineURL":"https://youtu.be/vUqHqBQ-wK0"},
+	{"MachineName":"Stair Mill","MachineType":"Cardio","MachineDesc":"Allows you to simulate walking upstairs on an endless cycle.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/stairmill.jpeg","MachineURL":"https://youtu.be/vUqHqBQ-wK0"},
+	{"MachineName":"Upright Bike","MachineType":"Cardio","MachineDesc":"Provides a low-impact form of indoor exercise by simulating a road bike but without the need to go outside.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/uprightbike.jpg","MachineURL":"https://youtu.be/iV1eEz8kxH0"},
+	{"MachineName":"Hack Squat","MachineType":"Resistance","MachineDesc":"Designed to allow you to perform a squatting movement with a major emphasis being placed on the thighs.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/HackSquat.jpeg","MachineURL":"https://youtu.be/0tn5K9NlCfo"},
+	{"MachineName":"Lat Pulldown","MachineType":"Resistance","MachineDesc":"Targets every muscle in the back though there is a particular emphasis placed on the side of the back muscles as well as the forearms when used without lifting aids.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/pulldown.jpg","MachineURL":"https://youtu.be/CAwf7n6Luuc"},
+	{"MachineName":"Pec Deck","MachineType":"Resistance","MachineDesc":"Targets and strengthen, tone or improve the endurance of the pec muscles.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/peckdeck.jpg","MachineURL":"https://youtu.be/A_uwDymTVwY"},
+	{"MachineName":"Incline Bench","MachineType":"Free Weight","MachineDesc":"Perform any pressing or isolation movement that requires the body to be in an inclined position.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/inclinebench.jpg","MachineURL":"https://youtu.be/SrqOu55lrYU"},
+	{"MachineName":"Decline Bench","MachineType":"Free Weight","MachineDesc":"Any exercise that needs to be performed from a declined angle. Typically targets the abs, chest, shoulders, and triceps.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/declinebench.jpg","MachineURL":"https://youtu.be/NM5lbuq92Aw"},
+	{"MachineName":"Preacher Bench","MachineType":"Free Weight","MachineDesc":"Used to perform an isolated version of the bicep curl that doesn’t allow you to integrate any other body parts thus focusing purely on the biceps.","MachineImage":"https://raw.githubusercontent.com/l-ganesan21/IT315/master/preacherbench.jpg","MachineURL":"https://youtu.be/1-xvtHS9PsU"}
+   ],
   "Status":"OK"
 }
-
-func popEMArray() {
-        let em1 = ExerciseMachines(nam:"Elliptical", info:"Simulates a running motion that places no impact on the knee joints and successfully integrates the arms for a full body workout.", typ:"Cardio")
-        em1.image = "elliptical.jpg"
-        em1.siteURL = "https://youtu.be/j38LNpTLwzY"
-        exerciseMachineObj.append(em1)
-        
-        let em2 = ExerciseMachines(nam: "Stair Mill", info: "Allows you to simulate walking upstairs on an endless cycle.", typ: "Cardio")
-        em2.image = "stairmill.jpeg"
-        em2.siteURL = "https://youtu.be/vUqHqBQ-wK0"
-        exerciseMachineObj.append(em2)
-        
-        let em3 = ExerciseMachines(nam: "Upright Bike", info: "Provides a low-impact form of indoor exercise by simulating a road bike but without the need to go outside.", typ: "Cardio")
-        em3.image = "uprightbike.jpg"
-        em3.siteURL = "https://youtu.be/iV1eEz8kxH0"
-        exerciseMachineObj.append(em3)
-        
-        let em4 = ExerciseMachines(nam:"Hack Squat", info:"Designed to allow you to perform a squatting movement with a major emphasis being placed on the thighs.", typ:"Resistance")
-        em4.image = "HackSquat.jpeg"
-        em4.siteURL = "https://youtu.be/0tn5K9NlCfo"
-        exerciseMachineObj.append(em4)
-        
-        let em5 = ExerciseMachines(nam: "Lat Pulldown", info: "Targets every muscle in the back though there is a particular emphasis placed on the side of the back muscles as well as the forearms when used without lifting aids.", typ: "Resistance")
-        em5.image = "pulldown.jpg"
-        em5.siteURL = "https://youtu.be/CAwf7n6Luuc"
-        exerciseMachineObj.append(em5)
-        
-        let em6 = ExerciseMachines(nam: "Pec Deck", info: "Targets and strengthen, tone or improve the endurance of the pec muscles.", typ: "Resistance")
-        em6.image = "peckdeck.jpg"
-        em6.siteURL = "https://youtu.be/A_uwDymTVwY"
-        exerciseMachineObj.append(em6)
-        
-        let em7 = ExerciseMachines(nam: "Incline Bench", info: "Perform any pressing or isolation movement that requires the body to be in an inclined position.", typ: "Free Weights")
-        em7.image = "inclinebench.jpg"
-        em7.siteURL = "https://youtu.be/SrqOu55lrYU"
-        exerciseMachineObj.append(em7)
-        
-        let em8 = ExerciseMachines(nam: "Decline Bench", info: "Any exercise that needs to be performed from a declined angle. Typically targets the abs, chest, shoulders, and triceps.", typ: "Free Weights")
-        em8.image = "declinebench.jpg"
-        em8.siteURL = "https://youtu.be/NM5lbuq92Aw"
-        exerciseMachineObj.append(em8)
-        
-        let em9 = ExerciseMachines(nam: "Preacher Bench", info: "Used to perform an isolated version of the bicep curl that doesn’t allow you to integrate any other body parts thus focusing purely on the biceps.", typ: "Free Weights")
-        em9.image = "preacherbench.jpg"
-        em9.siteURL = "https://youtu.be/1-xvtHS9PsU"
-        exerciseMachineObj.append(em9)
-    }
